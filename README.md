@@ -5,7 +5,7 @@ Description : This project aims to create a notes app software application desig
 Team Members:
 
   1. Manager: Navya(2310990749)
-  2. Developer: Nandini(2310990749)
+  2. Developer: Nandini(2310990747)
   3. Tester: Navjot(2310990748)
 
 Project Structure:
