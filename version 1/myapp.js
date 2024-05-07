@@ -28,6 +28,35 @@ function showAllNotes(){
 }
 
 showAllNotes()
+let addNoteBtn = document.getElementById('addNote')
+addNoteBtn.addEventListener('click', ()=>{
+    let allNotes;
+    let notes = localStorage.getItem("notes")
+    if(notes === null){
+        allNotes =[]
+    }else{
+        allNotes = JSON.parse(notes);
+    }
+    let title = document.getElementById('title')
+    let descp = document.getElementById('descp');
+    let newNoteObj = {
+        title : title.value,
+        descp : descp.value
+    }
+
+    if(addNoteBtn.innerText === "Update Note"){
+        let editCard = document.querySelector('.card')
+        let editIndex = editCard.getAttribute('editIndex') 
+        allNotes[editIndex] = newNoteObj
+    }else{
+        allNotes.push(newNoteObj);
+    }
+    localStorage.setItem("notes", JSON.stringify(allNotes))
+    title.value = ''
+    descp.value = ''
+    showAllNotes()
+
+})
 
 
 
