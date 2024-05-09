@@ -20,3 +20,8 @@ Features:
   2. Interactive elements for an engaging user experience
   3. Client-side validation using Javascript
   4. Responsive design to ensure compatibility with various devices and screen sizes.
+
+Feature timeline:
+7 May - Code published
+8 May- Privacy policy page added
+10 May - Forgot password page missing (issue raised)' 
