@@ -96,6 +96,59 @@
     </section>
 
     <!-- Analytics -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.getElementById('btn_send').parentNode;
+            document.getElementById('btn_send').addEventListener('click', function (e) {
+                e.preventDefault();
+                if (validateForm()) {
+                    sendData();
+                }
+            });
+
+            function validateForm() {
+                let isValid = true;
+                const name = document.getElementById('txt_name').value;
+                const email = document.getElementById('txt_email').value;
+                const phone = document.getElementById('txt_phone').value;
+                const subject = document.getElementById('txt_subject').value;
+                const message = document.getElementById('txt_message').value;
+
+                // Simple example of validation
+                if (!name || !email.includes('@') || !phone || !subject || !message) {
+                    alert('Please check your entries; make sure all fields are filled correctly.');
+                    isValid = false;
+                }
+                return isValid;
+            }
+
+            function sendData() {
+                const xhr = new XMLHttpRequest();
+                xhr.open("POST", "your-server-endpoint", true);
+                xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+                xhr.onload = function () {
+                    if (xhr.status >= 200 && xhr.status < 300) {
+                        // Handle the response here.
+                        console.log('Success:', xhr.responseText);
+                        document.getElementById('confirm').innerHTML = '<span style="color: green;">Message sent successfully!</span>';
+                        form.reset(); // Reset all form data
+                    } else {
+                        console.log('Error:', xhr.statusText);
+                        document.getElementById('confirm').innerHTML = '<span style="color: red;">Failed to send message. Please try again later.</span>';
+                    }
+                };
+
+                xhr.onerror = function () {
+                    console.log('Error:', xhr.statusText);
+                    document.getElementById('confirm').innerHTML = '<span style="color: red;">Network error. Please check your internet connection.</span>';
+                };
+
+                const data = `name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}&phone=${encodeURIComponent(phone)}&subject=${encodeURIComponent(subject)}&message=${encodeURIComponent(message)}`;
+                xhr.send(data);
+            }
+        });
+    </script>
 
 </body>
 
