@@ -24,4 +24,7 @@ Features:
 Feature timeline:
 7 May - Code published
 8 May- Privacy policy page added
-10 May - Forgot password page missing (issue raised)' 
+10 May - Forgot password page missing (issue raised)
+11 May - version 2(forgot password page) updated
+12 May - version 3(basic contact files and terms condition page) updated
+
