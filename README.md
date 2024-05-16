@@ -26,11 +26,14 @@ Description : This project aims to create a notes app software application desig
   4. Responsive design to ensure compatibility with various devices and screen sizes.
 
 ## Feature timeline:
-7 May - Code published
-8 May- Privacy policy page added
-10 May - Forgot password page missing (issue raised)
-11 May - version 2(forgot password page) updated
-12 May - version 3(basic contact files and terms condition page) updated
+1. 7 May - Code published
+2. 8 May- Privacy policy page added
+3. 10 May - Forgot password page missing (issue raised)
+4. 11 May - version 2(forgot password page) updated
+5. 12 May - version 3(basic contact files and terms condition page) updated
+6. 12 May - java script missing (issue raised)
+7. 14 May - updated contact.html
+8. 14 May - version 4 updated
 
 
 
