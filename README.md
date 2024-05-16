@@ -1,3 +1,6 @@
+## GLIMPS:
+
+![glimps!](weblayout.png)
 Project Name : Note Log
 
 Description : This project aims to create a notes app software application designed to help individuals create, organize, and manage their notes, ideas, and information digitally. This project will be implemented using HTML,CSS,Bootstrap and Javascript.
