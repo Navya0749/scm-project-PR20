@@ -35,9 +35,9 @@ Description : This project aims to create a notes app software application desig
 | 4. | version 3 | contact page and terms & conditions page added | 12 May 2024 | 6:38 PM | Nandini |
 | 5. | contact.html | updated javascript for contact page | 14 May 2024 | 1:33 AM | Nandini | 
 | 6. | version 4 | developers page added | 14 May 2024 | 1:49 AM | Nandini |
-| 7. | developers.html | developers page layout updated | 16 May 2024 | 9:36 PM |
+| 7. | developers.html | developers page layout updated | 16 May 2024 | 9:36 PM | Nandini |
 | 8. | version 5 | drawing page added | 17 May 2024 | 1:15 AM | Navya |
-| 9. | draw.html | drwaing page layout updated | 2:47 AM | Navya |
+| 9. | draw.html | drwaing page layout updated | 17 May 2024 | 2:47 AM | Navya |
 
 
 
