@@ -25,7 +25,10 @@ Description : This project aims to create a notes app software application desig
   3. Client-side validation using Javascript
   4. Responsive design to ensure compatibility with various devices and screen sizes.Our platform named as NOTACIA has many features
   5. Organised and add free
-  6. Safe and Synced 
+  6. Safe and Synced
+
+## Problem statement: 
+In both personal and professional contexts, individuals often need to keep track of various notes, ideas, tasks, and reminders. Existing solutions such as physical notebooks, basic text editors, and generic note-taking apps often fall short in addressing specific needs like organization, searchability, categorization, and cross-device accessibility. There is a need for a more efficient, feature-rich note log application that can cater to these requirements while being user-friendly and accessible.
 
 
 
