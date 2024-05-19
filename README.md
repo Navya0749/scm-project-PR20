@@ -23,7 +23,11 @@ Description : This project aims to create a notes app software application desig
   1. User-friendly layout
   2. Interactive elements for an engaging user experience
   3. Client-side validation using Javascript
-  4. Responsive design to ensure compatibility with various devices and screen sizes.
+  4. Responsive design to ensure compatibility with various devices and screen sizes.Our platform named as NOTACIA has many features
+  5. Organised and add free
+  6. Safe and Synced 
+
+
 
 ## Feature timeline:
 
