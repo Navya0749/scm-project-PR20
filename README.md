@@ -30,6 +30,14 @@ Description : This project aims to create a notes app software application desig
 ## Problem statement: 
 In both personal and professional contexts, individuals often need to keep track of various notes, ideas, tasks, and reminders. Existing solutions such as physical notebooks, basic text editors, and generic note-taking apps often fall short in addressing specific needs like organization, searchability, categorization, and cross-device accessibility. There is a need for a more efficient, feature-rich note log application that can cater to these requirements while being user-friendly and accessible.
 
+## Objective: 
+Allows users to create, edit, and delete notes easily.
+Supports organization of notes through categories, tags, or folders.
+Provides powerful search functionality to quickly locate notes.
+Ensures cross-device synchronization so users can access their notes from anywhere.
+Incorporates security measures to protect sensitive information.
+Offers a clean, intuitive, and user-friendly interface.
+
 
 
 ## Feature timeline:
