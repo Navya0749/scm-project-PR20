@@ -56,9 +56,13 @@ Offers a clean, intuitive, and user-friendly interface.
 
 ## About Every Version: 
 Version1: It contains basic structure of our website. There was an issue raised regarding problem in the JavaScript code. Finally the new code was uploaded.
+
 Version2: In version 2 we added some basic pages to our website i.e. are login page, register page and privacy page of our website.
+
 Version3: In version 3 we added contact page and terms and condition page. There was some problem in code of contact page so it was changed and the issue was solved in new code.
+
 Version4: In version 4 we added page that contain information about developers of this website and we added a page that contain homepage of our website 
+
 Version5: Finally we added last version of our project that contain full and complete website  
 
 
